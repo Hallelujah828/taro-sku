@@ -1,0 +1,42 @@
+// 样式全部引入
+@import "./components//taro-ui-styles/index.scss";
+// @import "./components//taro-ui-styles/components/button.scss";
+// @import "./components//taro-ui-styles/components/loading.scss";
+// @import "./components//taro-ui-styles/components/progress.scss";
+// @import "./components//taro-ui-styles/components/icon.scss";
+page {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+.invalid-hex {
+    color: #fff;
+    .axxx {
+        color: #000;
+    }
+}
+
+.txt-ellipsis{
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+  }
+
+

@@ -1,0 +1,18 @@
+.head-swiper {
+    height: 350px;
+}
+
+.head-swiper image {
+    width: 100%;
+    height: 350px;
+}
+
+.body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
