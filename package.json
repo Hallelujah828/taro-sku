@@ -71,7 +71,7 @@
         "babel-preset-env": "^1.6.1",
         "body-parser": "^1.19.0",
         "eslint-config-wmeimob": "git+ssh://git@git.dev.wmeimob.com:10022/yitong.li/eslint-config-wmeimob.git#0.0.1",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "typescript": "^3.5.3"
     }
 }
